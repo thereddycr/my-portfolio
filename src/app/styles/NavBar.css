@@ -1,0 +1,45 @@
+/* NavBar.css */
+.navBar {
+  position: fixed;
+  top: 0;
+  /* left: 0; */
+  width: 100vw;
+  padding: 20px 5%;
+  display: flex;
+  border: 1px solid #33353f;
+  background-color: #121212;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+.logo {
+  font-size: 25px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 600;
+  &:hover {
+    color: yellow;
+  }
+}
+.nav-link,
+.active {
+  /* display: block;
+  padding: 2px 12px;
+  text-align: center;
+  text-decoration: none;
+  color: #adb7be; */
+
+  display: block;
+  padding-top: 0.5rem /* 8px */;
+  padding-bottom: 0.5rem /* 8px */;
+  padding-left: 0.75rem;
+  color: #adb7be;
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+}
+.nav-link:hover,
+.active {
+  color: yellow;
+}
