@@ -5,6 +5,9 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+// animate.css for animation styles (suggested by tej)
+// 
+
 const Home = () => {
   return (
     <section className="lg:py-16">
