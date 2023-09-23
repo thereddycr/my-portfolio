@@ -108,13 +108,7 @@ const Projects = () => {
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
-          <motion.li
-            key={index}
-            variants={cardVariants}
-            initial="initial"
-            animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
-          >
+          <>
             <div>
               <div
                 className="h-52 md:h-72 rounded-t-xl relative group"
@@ -151,15 +145,7 @@ const Projects = () => {
                 <p className="text-[#ADB7BE]">{project.description}</p>
               </div>
             </div>
-            {/* <ProjectCard
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              imgUrl={project.image}
-              gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
-            /> */}
-          </motion.li>
+          </>
         ))}
       </ul>
     </section>
