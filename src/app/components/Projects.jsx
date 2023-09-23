@@ -125,6 +125,7 @@ const Projects = () => {
                 // }}
               >
                 <Image
+                  key={project.id}
                   src={project.image}
                   alt={project.title}
                   layout="fill"
