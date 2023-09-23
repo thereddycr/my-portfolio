@@ -43,3 +43,10 @@
 .active {
   color: yellow;
 }
+
+p::last-letter {
+  color: pink;
+}
+
+
+

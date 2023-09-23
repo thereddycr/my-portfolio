@@ -1,13 +1,16 @@
 import Link from "next/link";
 
-const NavLink = ({ href, title, isActive }) => {
+const NavLink = ({ href, title, isActive, setActiveLink, setNavbarOpen }) => {
+  const handleClick = () => {
+    setActiveLink(href);
+    setNavbarOpen(false);
+  };
   return (
     <Link
       href={href}
-      className={`block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-[#F9D342] ${
-        isActive
-          ? "text-[#F9D342]"
-          : ""
+      onClick={handleClick}
+      className={`block text-[#ADB7BE] sm:text-xl rounded md:p-0 font-sans hover:divide-x-8 hover:text-white ${
+        isActive ? "text-white" : ""
       }`}
     >
       {title}

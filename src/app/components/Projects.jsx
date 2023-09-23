@@ -7,57 +7,59 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    title: "Shadow Properties Website",
+    description:
+      "Real-estate CRM for lead generation, and marketing automation. Shadow Properties is the future of real estate investment. Our easy-to-use app streamlines everything, and it is available at your fingertips, which gives you all the information you manually search to sell or rent houses. Our tool is apt for individuals and teams that believe in real estate as a business. It is simple to use and can result in deals that can change your life.",
+    image: "/images/shadow/house-1.avif",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://web.shadow.properties/",
+    previewUrl: "https://web.shadow.properties/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    title: "Buyers Landing Page",
+    description:
+      "This landing page specifically for buyers within the Shadow Properties app, with a focus on enhancing buyer management.",
+    image: "/images/shadow/house-2.avif",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl:
+      "https://webtest.shadow.properties/contacts/6501503d4f8fbed7c8f0ca19",
+    previewUrl:
+      "https://webtest.shadow.properties/contacts/6501503d4f8fbed7c8f0ca19",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
+    title: "My Portfolio",
+    description:
+      "Welcome to my portfolio showcasing my work as a frontend developer. Explore a collection of web and mobile projects that highlight my skills and passion for creating visually stunning and user-friendly interfaces. Whether you're looking for web development, mobile app design, or UI development, you'll find examples of my diverse expertise here.",
+    image: "/images/shadow/portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
+    title: "Shadow Properties Android App",
+    description:
+      "Explore the future of real estate investment with our Android app. Shadow Properties is your comprehensive real-estate CRM for lead generation and marketing automation. Our easy-to-use app brings everything you need to your fingertips, providing you with all the information required to sell or rent houses effortlessly. Whether you're an individual or part of a real estate team, our tool simplifies the process and can lead to life-changing deals.",
+    image: "/images/shadow/house-3.avif",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl:
+      "https://play.google.com/store/apps/details?id=and.app.properties.shadow",
+    previewUrl:
+      "https://play.google.com/store/apps/details?id=and.app.properties.shadow",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Shadow Properties IOS App",
+    description:
+      "Discover the future of real estate investment with our iOS app. Shadow Properties offers a comprehensive real-estate CRM designed for lead generation and marketing automation. Our user-friendly app puts everything at your fingertips, providing all the information you need for selling or renting houses effortlessly. Whether you're an individual or part of a real estate team, our tool simplifies the process and can lead to transformative deals.",
+    image: "/images/shadow/house-5.avif",
+    tag: ["All", "Mobile"],
+    gitUrl:
+      "https://itunes.apple.com/us/app/shadow-properties-ios/idXXXXXXXXXX",
+    previewUrl:
+      "https://itunes.apple.com/us/app/shadow-properties-ios/idXXXXXXXXXX",
   },
 ];
 

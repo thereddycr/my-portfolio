@@ -1,14 +1,12 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { Fuggles, Shadows_Into_Light, Amatic_SC } from "next/font/google";
-import Image from "next/image";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Achievements from "./components/Achievements";
 
 export const fuggles = Fuggles({
   subsets: ["vietnamese"],
@@ -65,9 +63,8 @@ export default function Main() {
       ) : (
         <>
           <Navbar />
-          <div class="container mt-24 mx-auto py-4 px-20">
+          <div class="container mt-24 mx-auto py-4 px-5 lg:px-20 ">
             <Home />
-            {/* <Achievements /> */}
             <About />
             <Projects />
             <Contact />
