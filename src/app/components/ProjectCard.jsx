@@ -14,7 +14,12 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
         //   resize: "cover",
         // }}
       >
-        <Image src={imgUrl} alt={title} layout="fill" objectFit="cover" />
+        <Image
+          src={"/images/shadow/house-1.avif"}
+          alt={title}
+          layout="fill"
+          objectFit="cover"
+        />
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
           <Link
             href={gitUrl}
