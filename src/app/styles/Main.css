@@ -1,0 +1,9 @@
+/* styles.css */
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+}
