@@ -23,9 +23,9 @@ const projectsData = [
     image: "./images/shadow/house-2.avif",
     tag: ["All", "Web"],
     gitUrl:
-      "https://webtest.shadow.properties/contacts/6501503d4f8fbed7c8f0ca19",
+      "https://web.shadow.properties/contacts/6501503d4f8fbed7c8f0ca19",
     previewUrl:
-      "https://webtest.shadow.properties/contacts/6501503d4f8fbed7c8f0ca19",
+      "https://web.shadow.properties/contacts/6501503d4f8fbed7c8f0ca19",
   },
   {
     id: 3,

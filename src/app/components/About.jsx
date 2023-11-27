@@ -38,9 +38,9 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-          Junior Software Engineer at Fission Infotech Pvt Ltd. (2022 - Current)
+          Junior Software Engineer at Fission Infotech Pvt Ltd. (2021 - Current)
         </li>
-        <li>Internship at Fission Infotech Pvt Ltd. (2021 - 2022)</li>
+        <li>Internship at Fission Infotech Pvt Ltd.</li>
       </ul>
     ),
   },

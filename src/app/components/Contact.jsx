@@ -62,6 +62,10 @@ const Contact = () => {
               alt="Instagram Icon"
               width={45}
               height={45}
+              style={{
+                marginTop: 1.7,
+                marginLeft: 2,
+              }}
             />
           </Link>
         </div>
