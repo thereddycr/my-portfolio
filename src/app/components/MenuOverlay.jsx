@@ -16,7 +16,7 @@ const MenuOverlay = ({ links, activeLink, setActiveLink, setNavbarOpen }) => {
           />
         </li>
       ))}
-      <Link href="/images/my-resume.pdf" download={true}>
+      <Link target="_blank" href="/images/my-resume.pdf" download={true}>
         <span className="block text-[#ADB7BE] sm:text-xl rounded md:p-0 font-sans hover:divide-x-8 hover:text-white">
           Download CV
         </span>

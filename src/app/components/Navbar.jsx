@@ -107,6 +107,7 @@ const Navbar = () => {
             <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
               <li>
                 <Link
+                  // target="_blank"
                   href="/images/my-resume.pdf"
                   download={true}
                   className="bg-white text-[#121212] border-none rounded-md px-3 py-1 flex align-center justify-center gap-3"
