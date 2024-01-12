@@ -11,22 +11,21 @@ const TAB_DATA = [
       <div className="flex flex-wrap">
         <div className="w-1/2">
           <ul className="list-disc pl-2">
-            <li>React</li>
+            <li>ReactJS</li>
             <li>React Native</li>
-            <li>Native Base</li>
             <li>JavaScript</li>
             <li>Redux</li>
+            <li>Expo</li>
             <li>Next.js</li>
           </ul>
         </div>
         <div className="w-1/2">
           <ul className="list-disc pl-2">
+            <li>Native Base</li>
+            <li>Gluestack UI</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>Git</li>
-            <li>Mobile Developer</li>
-            <li>Web Developer</li>
-            <li>UI Developer</li>
           </ul>
         </div>
       </div>
@@ -38,7 +37,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-          Junior Software Engineer at Fission Infotech Pvt Ltd. (2021 - Current)
+          Junior Software Developer at Fission Infotech Pvt Ltd. (2021 -
+          Current)
         </li>
         <li>Internship at Fission Infotech Pvt Ltd.</li>
       </ul>
@@ -70,21 +70,29 @@ const About = () => {
   return (
     <section className="text-white py-8" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="./images/shadow/about.avif" width={500} height={500} />
+        <Image
+          alt="about_image"
+          src="./images/shadow/about.avif"
+          width={500}
+          height={500}
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
-            I am a Frontend Developer with expertise in creating responsive
-            applications for Android, iOS, and web platforms. With a strong
-            foundation in JavaScript, HTML, and CSS, I excel in building dynamic
-            user interfaces. My proficiency extends to popular frameworks and
-            libraries, including React, React Native, Native Base, Redux, and
-            Next.js. As a skilled Git user, I prioritize collaboration and
-            version control, making me a valuable asset to any development team.
-            With a passion for both mobile and web development, I bring a wealth
-            of experience to every project, embodying the role of a UI
-            Developer, Mobile Developer, and Web Developer.
+          <p className="text-base lg:text-lg mb-2">
+            I&apos;m a Frontend Developer building the front-end of Mobile and
+            Web applications that lead to the success of the overall products.
+            Check out some of my work in the Projects section.
           </p>
+          <p className="text-base lg:text-lg mb-2">
+            My main focus these days revolves around cutting-edge,
+            pixel-perfect, beautiful interfaces and intuitively implemented UX.
+          </p>
+          <p className="text-base lg:text-lg">
+            When I&apos;m not at the computer, I&apos;m usually hanging out with
+            my family and friends, or play games - cricket, badminton, ensuring
+            a perfect blend of work and play in my life.
+          </p>
+
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}

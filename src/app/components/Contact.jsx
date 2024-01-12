@@ -34,16 +34,16 @@ const Contact = () => {
 
   return (
     <section id="contact" className=" my-12 md:my-12 py-24 gap-4">
-      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute -left-6 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
           Let`&apos;s Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          I&apos;m open to Job opportunities where I can contribute, learn and
+          grow. If you have a good opportunity that matches my skills and
+          experience then don&apos;t hesitate to contact me.
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/thereddycr">
@@ -81,7 +81,7 @@ const Contact = () => {
               id="email"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="chandu@google.com"
+              placeholder="chandu@gmail.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />

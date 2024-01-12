@@ -17,29 +17,17 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Buyers Landing Page",
+    title: "Nuke Website",
     description:
-      "This landing page specifically for buyers within the PropFlip app, with a focus on enhancing buyer management.",
-    image: "./images/shadow/house-2.avif",
+      "Nuke transforms email marketing with a unique Custom One-Click SMTP Server Installation. Enjoy unlimited customization, user-friendly features, and advanced options like template testing and scheduled automation. Elevate your email campaigns with Nuke's special link generation and detailed delivery reports, making it a go-to solution for effective and easy email marketing.",
+    image: "./images/shadow/nuke_logo.png",
     tag: ["All", "Web"],
-    gitUrl:
-      "https://app.propflip.io/contacts/6501503d4f8fbed7c8f0ca19",
-    previewUrl:
-      "https://app.propflip.io/contacts/6501503d4f8fbed7c8f0ca19",
+    gitUrl: "https://demoapp.nuke.marketing/",
+    previewUrl: "https://demoapp.nuke.marketing/",
   },
+
   {
     id: 3,
-    title: "My Portfolio",
-    description:
-      "Welcome to my portfolio showcasing my work as a frontend developer. Explore a collection of web and mobile projects that highlight my skills and passion for creating visually stunning and user-friendly interfaces. Whether you're looking for web development, mobile app design, or UI development, you'll find examples of my diverse expertise here.",
-    // image: "./images/shadow/portfolio.png",
-    image: "./images/shadow/portfolio-2.jpg",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 4,
     title: "Shadow Properties Android App",
     description:
       "Explore the future of real estate investment with our Android app. Shadow Properties is your comprehensive real-estate CRM for lead generation and marketing automation. Our easy-to-use app brings everything you need to your fingertips, providing you with all the information required to sell or rent houses effortlessly. Whether you're an individual or part of a real estate team, our tool simplifies the process and can lead to life-changing deals.",
@@ -51,7 +39,7 @@ const projectsData = [
       "https://play.google.com/store/apps/details?id=and.app.properties.shadow",
   },
   {
-    id: 5,
+    id: 4,
     title: "Shadow Properties IOS App",
     description:
       "Discover the future of real estate investment with our iOS app. Shadow Properties offers a comprehensive real-estate CRM designed for lead generation and marketing automation. Our user-friendly app puts everything at your fingertips, providing all the information you need for selling or renting houses effortlessly. Whether you're an individual or part of a real estate team, our tool simplifies the process and can lead to transformative deals.",
@@ -61,6 +49,27 @@ const projectsData = [
       "https://itunes.apple.com/us/app/shadow-properties-ios/idXXXXXXXXXX",
     previewUrl:
       "https://itunes.apple.com/us/app/shadow-properties-ios/idXXXXXXXXXX",
+  },
+  {
+    id: 5,
+    title: "My Portfolio",
+    description:
+      "Welcome to my portfolio showcasing my work as a frontend developer. Explore a collection of web and mobile projects that highlight my skills and passion for creating visually stunning and user-friendly interfaces. Whether you're looking for web development, mobile app design, or UI development, you'll find examples of my diverse expertise here.",
+    // image: "./images/shadow/portfolio.png",
+    image: "./images/shadow/portfolio-2.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "Buyers Landing Page",
+    description:
+      "This landing page specifically for buyers within the PropFlip app, with a focus on enhancing buyer management.",
+    image: "./images/shadow/house-2.avif",
+    tag: ["All", "Web"],
+    gitUrl: "https://app.propflip.io/contacts/6501503d4f8fbed7c8f0ca19",
+    previewUrl: "https://app.propflip.io/contacts/6501503d4f8fbed7c8f0ca19",
   },
 ];
 
