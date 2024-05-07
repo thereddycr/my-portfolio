@@ -1,1 +1,1 @@
-echo "16.20.1" > .nvmrc
+echo "16.20.2" > .nvmrc
