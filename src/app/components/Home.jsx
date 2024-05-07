@@ -54,7 +54,7 @@ const Home = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] mb-6 font-sans text-xl sm:text-2xl text-left mt-2">
-            Experienced Frontend Developer with a passion for creating visually
+            Experienced Software Developer with a passion for creating visually
             and user-friendly interfaces.
           </p>
           <div className="socials flex flex-row gap-3">

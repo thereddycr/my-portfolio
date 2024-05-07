@@ -14,17 +14,20 @@ const TAB_DATA = [
             <li>ReactJS</li>
             <li>React Native</li>
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>Redux</li>
+            <li>Node.js</li>
             <li>Expo</li>
-            <li>Next.js</li>
           </ul>
         </div>
         <div className="w-1/2">
           <ul className="list-disc pl-2">
+            <li>MUI</li>
             <li>Native Base</li>
             <li>Gluestack UI</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML / CSS</li>
+            <li>MySQL</li>
+            <li>Next.js</li>
             <li>Git</li>
           </ul>
         </div>
@@ -37,8 +40,11 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-          Junior Software Developer at Fission Infotech Pvt Ltd. (2021 -
+          Junior Software Developer at Fission Infotech Pvt Ltd. (2024 -
           Current)
+        </li>
+        <li>
+          Junior Software Developer at Fission Infotech Pvt Ltd. (2021 - 2024)
         </li>
         <li>Internship at Fission Infotech Pvt Ltd.</li>
       </ul>
