@@ -46,13 +46,13 @@ const Contact = () => {
           experience then don&apos;t hesitate to contact me.
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com/thereddycr">
+          <Link target="_blank" href="https://github.com/thereddycr">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="https://www.linkedin.com/in/chandrakanthreddysurikanti/">
+          <Link target="_blank" href="https://www.linkedin.com/in/chandrakanthreddysurikanti/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
-          <Link href="https://www.instagram.com/thereddy.cr/">
+          <Link target="_blank" href="https://www.instagram.com/thereddy.cr/">
             <Image
               src={InstagramIcon}
               alt="Instagram Icon"

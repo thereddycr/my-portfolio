@@ -40,7 +40,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-          Junior Software Developer at Fission Infotech Pvt Ltd. (2024 -
+          Software Developer at InterScripts Software Pvt Ltd. (2024 -
           Current)
         </li>
         <li>
