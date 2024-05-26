@@ -6,6 +6,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 import NavLink from "./NavLink";
 import "../styles/NavBar.css";
+import ResumeIcon from "../../../public/file-document.svg"
 
 const navLinks = [
   {
@@ -114,8 +115,8 @@ const Navbar = () => {
                 >
                   <span className="font-semibold text-sm">Download CV</span>
                   <Image
-                    src="/file-document.svg"
-                    alt="Your SVG Alt Text"
+                    src={ResumeIcon}
+                    alt="Resume"
                     width={17}
                     height={17}
                   />
